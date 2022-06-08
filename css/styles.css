@@ -9,4 +9,35 @@ p {
 
 body { background-color: cyan;}
 
-a:hover {color: black;}
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:visited {
+    color:red;
+
+}
+
+/**
+.nav {
+    position:absolute;
+    top:100px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    height:150px;
+}
+#homeImage {
+    position: absolute;
+    top:280px;
+}
+**/
+
+/** css style for highlighted content **/
+.highligted {
+    font-size: 24px;
+    color:blue;
+}
